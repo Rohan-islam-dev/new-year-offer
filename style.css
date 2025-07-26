@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+.merriweather-font {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto; 
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* common style  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mg-auto{
+    max-width: 1440px;
+    margin: 0 auto ;
+}
+img{
+    width: 100%;
+}
+/* banner section  */
+
+.banner{
+    background-image: url('./images/Banner\ Image.png');
+    background-size: cover;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+.banner-text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 177px;
+    
+}
+.banner-text h4{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 16px;
+    
+}
+.banner-text h2{
+    font-size: 4.5rem;
+    font-weight: bold;
+    
+}
+/* offer section  */
+.offer{
+    text-align: center;
+    margin-top: 120px;
+    width: 802.9px;
+    
+}
+.offer h3{
+    color: #FF0000;
+    font-size: 5.5rem;
+    font-weight: bold;
+    padding-bottom: 48px;
+}
+.offer p{
+    color: #FF0000;
+    font-size: 1.25rem;
+ 
+}
+.offer h4{
+    color: #070211;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 16px;
+}
