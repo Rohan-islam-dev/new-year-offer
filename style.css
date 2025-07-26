@@ -85,7 +85,7 @@ img{
 }
 /* midnight section  */
 .midnight{
-    background-image: url('/images/Vectorrr.png');
+    background-image: url('./images/Vectorrr.png');
     height: 600px;
     background-size: cover;
 
@@ -93,7 +93,7 @@ img{
 .midnight-text{
     padding-top: 126px;
     padding-left: 126px;
-    max-width: 642px;
+    max-width: 692px;
 }
 .midnight-text h3{
     font-size: 4rem;
@@ -137,7 +137,7 @@ img{
 
     }
     .midnight{
-        height: 500px;
+        height: 200px;
         background-size: contain;
         background-repeat: no-repeat;
         margin: 10px;
