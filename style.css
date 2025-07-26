@@ -114,7 +114,7 @@ img {
   justify-content: space-between;
 }
 .column-two img {
-  width: 362px;
+  max-width: 362px;
   border: 10px solid #ff0000;
   border-radius: 50%;
   padding: 20px;
@@ -142,6 +142,7 @@ img {
 
 .column-three img {
   max-width: 140px;
+  padding-top: 45px;
 }
 .holiday-offer-text h5 {
   font-size: 1.25rem;
@@ -220,11 +221,14 @@ img {
     width: 30%;
   }
 
-  .holiday-offer-img  img{
+  .holiday-offer-img img {
     height: 200px;
   }
-  .holiday-offer-img .imgsecond{
+  .holiday-offer-img .imgsecond {
     left: 30px;
     top: 400px;
+  }
+  .holiday-offer{
+    margin: 10px;
   }
 }
