@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
 
+
 .merriweather-font {
   font-family: "Merriweather", serif;
   font-optical-sizing: auto; 
@@ -14,14 +15,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .mg-auto{
     max-width: 1440px;
     margin: 0 auto ;
+    margin-top: 120px;
 }
 img{
     width: 100%;
+}
+
+.paragraph{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #070211;
 }
 /* banner section  */
 
@@ -52,7 +61,7 @@ img{
 /* offer section  */
 .offer{
     text-align: center;
-    margin-top: 120px;
+    /* margin-top: 120px; */
     width: 802.9px;
     
 }
@@ -73,6 +82,36 @@ img{
     font-weight: bold;
     padding-top: 16px;
 }
+/* midnight section  */
+.midnight{
+    background-image: url('/images/Vectorrr.png');
+    height: 600px;
+    background-size: cover;
+
+}
+.midnight-text{
+    padding-top: 126px;
+    padding-left: 126px;
+
+}
+.midnight-text h3{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom:24px ;
+}
+.midnight-text p{
+    color: #FFFFFF;
+    width: 697px;
+}
+.midnight-text button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    padding-top: 48px;
+    color: #FFFFFF;
+}
+
 
 @media screen and (max-width:576px){
     .offer{
