@@ -190,4 +190,8 @@ img{
     .midnight-text button{
         padding-top: 10px;
     }
+    .three-column{
+        flex-direction: column;
+        margin: 20px;
+    }
 }
