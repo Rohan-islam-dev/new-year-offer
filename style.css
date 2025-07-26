@@ -73,3 +73,23 @@ img{
     font-weight: bold;
     padding-top: 16px;
 }
+
+@media screen and (max-width:576px){
+    .offer{
+        width: 300px;
+        margin-top: 40px;
+        
+    }
+    .banner{
+        height: 200px;
+        margin: 20px;
+        background-size: contain;
+        background-repeat:repeat-x;
+    }
+    .banner-text h2 , .banner-text h4{
+        font-size: 1.25rem;
+    }
+    .banner-text{
+        padding-top: 30px;
+    }
+}
